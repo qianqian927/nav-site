@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的导航站</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="container">
+        <header class="text-center my-5">
+            <h1 class="display-4">我的导航站</h1>
+            <div class="search-box my-4">
+                <input type="text" class="form-control" id="searchInput" placeholder="搜索网站...">
+            </div>
+        </header>
+
+        <main>
+            <div class="row">
+                <!-- 常用网站 -->
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5 class="card-title mb-0">常用网站</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="d-grid gap-2">
+                                <a href="https://www.google.com" class="btn btn-outline-primary" target="_blank">
+                                    <i class="bi bi-google"></i> Google
+                                </a>
+                                <a href="https://www.github.com" class="btn btn-outline-dark" target="_blank">
+                                    <i class="bi bi-github"></i> GitHub
+                                </a>
+                                <a href="https://www.youtube.com" class="btn btn-outline-danger" target="_blank">
+                                    <i class="bi bi-youtube"></i> YouTube
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 学习资源 -->
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5 class="card-title mb-0">学习资源</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="d-grid gap-2">
+                                <a href="https://www.w3school.com.cn" class="btn btn-outline-success" target="_blank">
+                                    <i class="bi bi-code-slash"></i> W3School
+                                </a>
+                                <a href="https://www.runoob.com" class="btn btn-outline-info" target="_blank">
+                                    <i class="bi bi-book"></i> 菜鸟教程
+                                </a>
+                                <a href="https://www.bilibili.com" class="btn btn-outline-primary" target="_blank">
+                                    <i class="bi bi-play-circle"></i> B站
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="text-center my-5">
+            <p class="text-muted">© 2024 我的导航站</p>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html> 
